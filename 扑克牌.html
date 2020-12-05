@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>07 CSS3转换（花式转换）</title>
+	<style type="text/css">
+    body{
+      background-color: #eee;
+    }
+		.box{
+			position: relative;
+      width: 400px;
+      height: 600px;
+      margin: 50px auto;
+    }
+    .box div{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: all 1s;
+      transform-origin: center bottom;
+    }
+    img.box:hover{
+      transform: rotate(180deg);
+    }
+    .box:hover div:nth-child(1){
+      transform: rotate(-84deg);
+    }
+    .box:hover div:nth-child(2){
+      transform: rotate(-72deg);
+    }
+    .box:hover div:nth-child(3){
+      transform: rotate(-60deg);
+    }
+    .box:hover div:nth-child(4){
+      transform: rotate(-48deg);
+    }
+    .box:hover div:nth-child(5){
+      transform: rotate(-36deg);
+    }
+    .box:hover div:nth-child(6){
+      transform: rotate(-24deg);
+    }
+    .box:hover div:nth-child(7){
+      transform: rotate(-12deg);
+    }
+    .box:hover div:nth-child(8){
+    	transform: rotate(0deg);
+    }
+    .box:hover div:nth-child(9){
+      transform: rotate(12deg);
+    }
+    .box:hover div:nth-child(10){
+      transform: rotate(24deg);
+    }
+    .box:hover div:nth-child(11){
+      transform: rotate(36deg);
+    }
+    .box:hover div:nth-child(12){
+      transform: rotate(48deg);
+    }
+    .box:hover div:nth-child(13){
+      transform: rotate(60deg);
+    }
+    .box:hover div:nth-child(14){
+      transform: rotate(72deg);
+    }
+    .box:hover div:nth-child(15){
+      transform: rotate(84deg);
+    }
+	</style>
+</head>
+<body>
+	<div class="box">
+	  <div><img src="images/1.jpg"></div>
+	  <div><img src="images/2.jpg"></div>
+	  <div><img src="images/3.jpg"></div>
+	  <div><img src="images/4.jpg"></div>
+	  <div><img src="images/5.jpg"></div>
+	  <div><img src="images/6.jpg"></div>
+	  <div><img src="images/7.jpg"></div>
+	  <div><img src="images/8.jpg"></div>
+	  <div><img src="images/9.jpg"></div>
+	  <div><img src="images/10.jpg"></div>
+	  <div><img src="images/11.jpg"></div>
+	  <div><img src="images/12.jpg"></div>
+	  <div><img src="images/13.jpg"></div>
+	  <div><img src="images/j.jpg"></div>
+	  <div><img src="images/j2.jpg"></div>
+  </div>
+</body>
+</html>
